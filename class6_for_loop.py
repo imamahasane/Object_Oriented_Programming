@@ -15,8 +15,8 @@ class Car:
 # my_car.start()
 
 for i in range(2):
-    name = input()
-    color = input()
+    name = input("Please input your car name: ")
+    color = input("Please input your car color: ")
     # my_car = "mycar"+ str(i)
     # print(my_car)
     mycar = Car(name, color)
